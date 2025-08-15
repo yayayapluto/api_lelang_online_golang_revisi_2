@@ -3,6 +3,20 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
+        <entry key="Env">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/utils/get_env.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ObjectType">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/entities/object_type_model.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Timestamp">
           <value>
             <set>
@@ -24,7 +38,7 @@
         <entry key="file://$PROJECT_DIR$/cmd/config/database_config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755238902830" />
+              <option name="lastModified" value="1755244769738" />
             </ScannedPath>
           </value>
         </entry>
@@ -38,7 +52,7 @@
         <entry key="file://$PROJECT_DIR$/cmd/database/migrate/migrate.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755238913853" />
+              <option name="lastModified" value="1755243133284" />
             </ScannedPath>
           </value>
         </entry>
@@ -52,7 +66,7 @@
         <entry key="file://$PROJECT_DIR$/cmd/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755238730914" />
+              <option name="lastModified" value="1755244665040" />
             </ScannedPath>
           </value>
         </entry>
@@ -77,10 +91,17 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/entities/object_type_model.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755242772146" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/entities/timestamp.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755242187259" />
+              <option name="lastModified" value="1755242325613" />
               <option name="schema">
                 <list>
                   <option value="Timestamp" />
@@ -127,7 +148,12 @@
         <entry key="file://$PROJECT_DIR$/internal/utils/get_env.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755240063630" />
+              <option name="lastModified" value="1755244755574" />
+              <option name="schema">
+                <list>
+                  <option value="Env" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -163,6 +189,8 @@
     </option>
     <option name="tableStructMapping">
       <map>
+        <entry key="env" value="Env" />
+        <entry key="object_type" value="ObjectType" />
         <entry key="timestamp" value="Timestamp" />
       </map>
     </option>
