@@ -17,6 +17,13 @@
             </set>
           </value>
         </entry>
+        <entry key="RouteConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/api/routes/route.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Timestamp">
           <value>
             <set>
@@ -31,7 +38,7 @@
         <entry key="file://$PROJECT_DIR$/cmd/config/app_config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755238892989" />
+              <option name="lastModified" value="1755245621970" />
             </ScannedPath>
           </value>
         </entry>
@@ -66,7 +73,7 @@
         <entry key="file://$PROJECT_DIR$/cmd/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755244665040" />
+              <option name="lastModified" value="1755245563434" />
             </ScannedPath>
           </value>
         </entry>
@@ -134,7 +141,12 @@
         <entry key="file://$PROJECT_DIR$/internal/api/routes/route.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755240308837" />
+              <option name="lastModified" value="1755245621970" />
+              <option name="schema">
+                <list>
+                  <option value="RouteConfig" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -178,6 +190,13 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/internal/utils/validator.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755245075790" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/pkg/jwt/jwt.go">
           <value>
             <ScannedPath>
@@ -191,6 +210,7 @@
       <map>
         <entry key="env" value="Env" />
         <entry key="object_type" value="ObjectType" />
+        <entry key="route_config" value="RouteConfig" />
         <entry key="timestamp" value="Timestamp" />
       </map>
     </option>

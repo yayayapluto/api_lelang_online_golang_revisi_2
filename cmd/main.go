@@ -19,6 +19,14 @@ func main() {
 		panic(err)
 	}
 
-	_ = db
+	app, err := config.NewApp(db)
+	if err != nil {
+		panic(err)
+	}
+
+	if err := app.Listen(":8080"); err != nil {
+		panic(err)
+	}
+
 	fmt.Println("Success connected to database!")
 }
